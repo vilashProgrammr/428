@@ -17,6 +17,10 @@ export class SearchformComponent implements OnInit {
 
     constructor(private _githubService: GithubService) {
         // Component'e input olarak geçilen parametre burada undefined, OnInit'te Object halinde.
+
+        //DJ+5 FAILED TEST
+        //FSDFSDDSFDSFDSF D
+        //WREEWRWERWEREW
     }
 
     ngOnInit() {
