@@ -50,7 +50,7 @@ export class SearchformComponent implements OnInit {
                 },
                 () => console.log('Done')
             );
-
+        //THIS IS DJ 11 FAILEDDD
 
 
             this._githubService.getRepos().subscribe(repos => {
