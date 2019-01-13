@@ -50,7 +50,8 @@ export class SearchformComponent implements OnInit {
                 },
                 () => console.log('Done')
             );
-
+//DJ 15 THIS IS WEBCAM DISABLE TEST
+//FAILED TEST
 
 
             this._githubService.getRepos().subscribe(repos => {
