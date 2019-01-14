@@ -37,6 +37,11 @@ export class SearchformComponent implements OnInit {
         }
     }
 
+    //THIS IS DJ+19 PROGRAMMR
+    //FAILED TEST 
+    //TESTING THIS WEBRDP IN SSL CONNECTION
+    
+
     getUserInformation() {
         if (this.githubUser.userName && this.githubUser.userName.length > 0) {
 
