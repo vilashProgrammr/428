@@ -37,6 +37,10 @@ export class SearchformComponent implements OnInit {
         }
     }
 
+
+
+    //THIS IS DJ 21  FAIELD
+
     getUserInformation() {
         if (this.githubUser.userName && this.githubUser.userName.length > 0) {
 
