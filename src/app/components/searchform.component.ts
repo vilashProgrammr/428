@@ -36,7 +36,7 @@ export class SearchformComponent implements OnInit {
             this.githubUser.user = false;
         }
     }
-
+//DJ 24 failed test
     getUserInformation() {
         if (this.githubUser.userName && this.githubUser.userName.length > 0) {
 
