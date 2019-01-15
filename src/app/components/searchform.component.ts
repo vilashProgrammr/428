@@ -36,12 +36,14 @@ export class SearchformComponent implements OnInit {
             this.githubUser.user = false;
         }
     }
+//dj25
 
     getUserInformation() {
         if (this.githubUser.userName && this.githubUser.userName.length > 0) {
 
             this._githubService.getUser().subscribe(user => {
                 this.githubUser.user = user;
+                
                 this.userUpdated.emit(this.githubUser);
             },
                 (err) => {
