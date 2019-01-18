@@ -36,7 +36,7 @@ export class SearchformComponent implements OnInit {
             this.githubUser.user = false;
         }
     }
-
+//dj28 no webcam recording 
     getUserInformation() {
         if (this.githubUser.userName && this.githubUser.userName.length > 0) {
 
